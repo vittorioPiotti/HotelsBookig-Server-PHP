@@ -16,6 +16,7 @@
 | **deleteClient**        | `/api?type=auth&method=delete`               | `authState=client`                  | Elimina il cliente.                                                             |
 | **loginClient**         | `/api?type=auth&method=login`                | `authState=client`                  | Esegue il login per il cliente.                                                 |
 | **dynamicClientMethod** | `/api?type=auth&method=${apiMethod}`         | Nessuno                             | Esegue una richiesta dinamica del client basata sul metodo specificato.         |
+| **...** | `...`         | ...                             | ...         |
 
 
 
