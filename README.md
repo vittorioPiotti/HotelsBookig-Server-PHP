@@ -56,3 +56,9 @@ $ tree
     	└── index.php
 
 ```
+
+
+## Licenze
+| Componente         | Versione  | Copyright                         | Licenza                                                       |
+|--------------------|-----------|-----------------------------------|---------------------------------------------------------------|
+| Gestione Hotels Server | v1.0.0    | 2024 Vittorio Piotti              | [GPL-3.0 License](https://github.com/vittorioPiotti/Gestione-Hotels-Server/blob/main/LICENSE.md) |
