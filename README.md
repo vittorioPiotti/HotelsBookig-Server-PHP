@@ -1,6 +1,24 @@
 # Gestione-Hotels-Server
 
 
+## API
+
+| Nome API                | URL                                          | Parametri                           | Descrizione                                                                    |
+|-------------------------|----------------------------------------------|-------------------------------------|--------------------------------------------------------------------------------|
+| **getBookingsDataApp**  | `/api?type=book&method=getBookingsDataApp`   | `clientId=${globalId}`              | Ottiene i dati delle prenotazioni per il cliente specificato.                  |
+| **getHotelsDataApp**    | `/api?type=hotel&method=getHotelsDataApp`    | Nessuno                             | Ottiene i dati di tutti gli hotel.                                             |
+| **getHotelDataApp**     | `/api?type=hotel&method=getHotelDataApp`     | `idHotel=${idAlbergo}`              | Ottiene i dati di un hotel specifico.                                           |
+| **newbooking**          | `/api?type=book&method=newbooking`           | Nessuno                             | Crea una nuova prenotazione.                                                   |
+| **getHotelRoomsDataApp**| `/api?type=room&method=getHotelRoomsDataApp` | `idHotel=${idAlbergo}`              | Ottiene i dati delle stanze di un hotel specifico.                               |
+| **getClientEmail**      | `/api?type=auth&method=getClientEmail`       | `idClient=${globalId}`              | Ottiene l'email del cliente specificato.                                         |
+| **editClientEmail**     | `/api?type=auth&method=editClientEmail`      | Nessuno                             | Modifica l'email del cliente.                                                  |
+| **editClientPassw**     | `/api?type=auth&method=editClientPassw`      | Nessuno                             | Modifica la password del cliente.                                              |
+| **deleteClient**        | `/api?type=auth&method=delete`               | `authState=client`                  | Elimina il cliente.                                                             |
+| **loginClient**         | `/api?type=auth&method=login`                | `authState=client`                  | Esegue il login per il cliente.                                                 |
+| **dynamicClientMethod** | `/api?type=auth&method=${apiMethod}`         | Nessuno                             | Esegue una richiesta dinamica del client basata sul metodo specificato.         |
+
+
+
 ## Albero di Path Backend
 
 ```bash
