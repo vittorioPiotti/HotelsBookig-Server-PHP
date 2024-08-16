@@ -26,7 +26,7 @@ Il server sviluppato per la versione `v.7.3` di PHP  è utilizzato per il client
 
 
 
-## Albero di Path Backend
+## Albero di Path 
 
 ```bash
 $ tree
