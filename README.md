@@ -6,24 +6,62 @@ Il server sviluppato per la versione `v.7.3` di PHP  è utilizzato per il client
 
  - [Gestione Hotels App](https://github.com/vittorioPiotti/Gestione-Hotels-App)
  - [Gestione Hotels Web](https://github.com/vittorioPiotti/Gestione-Hotels-Web)
-
 ## API
 
-| Nome API                | URL                                          | Parametri                           | Descrizione                                                                    |
-|-------------------------|----------------------------------------------|-------------------------------------|--------------------------------------------------------------------------------|
-| **getBookingsDataApp**  | `/api?type=book&method=getBookingsDataApp`   | `clientId=${globalId}`              | Ottiene i dati delle prenotazioni per il cliente specificato.                  |
-| **getHotelsDataApp**    | `/api?type=hotel&method=getHotelsDataApp`    | Nessuno                             | Ottiene i dati di tutti gli hotel.                                             |
-| **getHotelDataApp**     | `/api?type=hotel&method=getHotelDataApp`     | `idHotel=${idAlbergo}`              | Ottiene i dati di un hotel specifico.                                           |
-| **newbooking**          | `/api?type=book&method=newbooking`           | Nessuno                             | Crea una nuova prenotazione.                                                   |
-| **getHotelRoomsDataApp**| `/api?type=room&method=getHotelRoomsDataApp` | `idHotel=${idAlbergo}`              | Ottiene i dati delle stanze di un hotel specifico.                               |
-| **getClientEmail**      | `/api?type=auth&method=getClientEmail`       | `idClient=${globalId}`              | Ottiene l'email del cliente specificato.                                         |
-| **editClientEmail**     | `/api?type=auth&method=editClientEmail`      | Nessuno                             | Modifica l'email del cliente.                                                  |
-| **editClientPassw**     | `/api?type=auth&method=editClientPassw`      | Nessuno                             | Modifica la password del cliente.                                              |
-| **deleteClient**        | `/api?type=auth&method=delete`               | `authState=client`                  | Elimina il cliente.                                                             |
-| **loginClient**         | `/api?type=auth&method=login`                | `authState=client`                  | Esegue il login per il cliente.                                                 |
-| **dynamicClientMethod** | `/api?type=auth&method=${apiMethod}`         | Nessuno                             | Esegue una richiesta dinamica del client basata sul metodo specificato.         |
+### getBookingsDataApp
+- **Endpoint**: `/api?type=book&method=getBookingsDataApp`
+- **Parametri**: `clientId=${globalId}`
+- **Descrizione**: Ottiene i dati delle prenotazioni per il cliente specificato.
 
+### getHotelsDataApp
+- **Endpoint**: `/api?type=hotel&method=getHotelsDataApp`
+- **Parametri**: Nessuno
+- **Descrizione**: Ottiene i dati di tutti gli hotel.
 
+### getHotelDataApp
+- **Endpoint**: `/api?type=hotel&method=getHotelDataApp`
+- **Parametri**: `idHotel=${idAlbergo}`
+- **Descrizione**: Ottiene i dati di un hotel specifico.
+
+### newbooking
+- **Endpoint**: `/api?type=book&method=newbooking`
+- **Parametri**: Nessuno
+- **Descrizione**: Crea una nuova prenotazione.
+
+### getHotelRoomsDataApp
+- **Endpoint**: `/api?type=room&method=getHotelRoomsDataApp`
+- **Parametri**: `idHotel=${idAlbergo}`
+- **Descrizione**: Ottiene i dati delle stanze di un hotel specifico.
+
+### getClientEmail
+- **Endpoint**: `/api?type=auth&method=getClientEmail`
+- **Parametri**: `idClient=${globalId}`
+- **Descrizione**: Ottiene l'email del cliente specificato.
+
+### editClientEmail
+- **Endpoint**: `/api?type=auth&method=editClientEmail`
+- **Parametri**: Nessuno
+- **Descrizione**: Modifica l'email del cliente.
+
+### editClientPassw
+- **Endpoint**: `/api?type=auth&method=editClientPassw`
+- **Parametri**: Nessuno
+- **Descrizione**: Modifica la password del cliente.
+
+### deleteClient
+- **Endpoint**: `/api?type=auth&method=delete`
+- **Parametri**: `authState=client`
+- **Descrizione**: Elimina il cliente.
+
+### loginClient
+- **Endpoint**: `/api?type=auth&method=login`
+- **Parametri**: `authState=client`
+- **Descrizione**: Esegue il login per il cliente.
+
+### dynamicClientMethod
+- **Endpoint**: `/api?type=auth&method=${apiMethod}`
+- **Parametri**: Nessuno
+- **Descrizione**: Esegue una richiesta dinamica del client basata sul metodo specificato.
 
 
 ## Albero di Path 
