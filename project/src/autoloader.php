@@ -1,4 +1,10 @@
 <?php
+/*
+ * Gestione Hotels Server v1.0.0 (https://github.com/vittorioPiotti/Gestione-Hotels-Server/releases/tag/1.0.0)
+ * Copyright 2024 Vittorio Piotti
+ * Licensed under GPL-3.0 (https://github.com/vittorioPiotti/Gestione-Hotels-Server/blob/main/LICENSE.md)
+ */
+
 require_once __DIR__ . '/foundations/FAPI.php';
 require_once __DIR__ . '/foundations/FAuth.php';
 require_once __DIR__ . '/foundations/FBooking.php';
