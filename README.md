@@ -2,7 +2,7 @@
 
 
 
-Il server sviluppato per la versione `v.7.3` di PHP  è utilizzato per il client dell'app e del sito web:
+Il server sviluppato per la versione `v.7.3` di PHP  è utilizzato per il client dell'app e del sito web del progetto Gestione Hotels:
 
  - [Gestione Hotels App](https://github.com/vittorioPiotti/Gestione-Hotels-App)
  - [Gestione Hotels Web](https://github.com/vittorioPiotti/Gestione-Hotels-Web)
