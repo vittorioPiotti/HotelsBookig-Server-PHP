@@ -11,6 +11,10 @@ Il server sviluppato per la versione `v.7.3` di PHP  è utilizzato per il client
 > Il progetto è stato sviluppato a scuola per fini scolastici in funzione della consegna assegnata dal docente come lavoro individuale
 
 
+## Support Me
+
+[<img width="200" src="https://github.com/vittorioPiotti/vittorioPiotti/blob/main/immagini/support.png"/>](https://ko-fi.com/vittoriopiotti)
+
 
 ## API
 
