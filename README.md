@@ -116,4 +116,4 @@ $ tree
 
 | Componente         | Versione  | Copyright                         | Licenza                                                       |
 |--------------------|-----------|-----------------------------------|---------------------------------------------------------------|
-| Gestione Hotels Server | v1.0.0    | 2024 Vittorio Piotti              | [GPL-3.0 License](https://github.com/vittorioPiotti/Gestione-Hotels-Server/blob/main/LICENSE.md) |
+| [HotelsBookingServer](https://github.com/vittorioPiotti/HotelsBookig-Server-PHP) | [v1.0.0](https://github.com/vittorioPiotti/HotelsBookig-Server-PHP/releases/tag/v1.0.0)    | 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)            | [GPL-3.0 ](https://github.com/vittorioPiotti/HotelsBookig-Server-PHP/blob/main/LICENSE.md) |
