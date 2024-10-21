@@ -112,7 +112,12 @@ $ tree
 > 
 > I contenuti multimediali possono essere soggetti a una **licenza non commerciale** richiedendo l'acquisto di una licenza separata.
 
+### HotelsBookingServer
 
-| Componente         | Versione  | Copyright                         | Licenza                                                       |
-|--------------------|-----------|-----------------------------------|---------------------------------------------------------------|
-| [HotelsBookingServer](https://github.com/vittorioPiotti/HotelsBookig-Server-PHP) | [v1.0.0](https://github.com/vittorioPiotti/HotelsBookig-Server-PHP/releases/tag/v1.0.0)    | 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)            | [GPL-3.0 ](https://github.com/vittorioPiotti/HotelsBookig-Server-PHP/blob/main/LICENSE.md) |
+**Copyright** 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)
+
+**Version** [v1.0.0](https://github.com/vittorioPiotti/HotelsBookig-Server-PHP/releases/tag/v1.0.0)
+
+**License** [GPL-3.0](https://github.com/vittorioPiotti/HotelsBookig-Server-PHP/blob/main/LICENSE.md)
+
+
