@@ -10,10 +10,7 @@ Il server sviluppato per la versione `v.7.3` di PHP  è utilizzato per il client
 > [!NOTE]
 > Progetto scolastico 🎓
 
-#### Support Me
-
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P012BC8U)
+---
 
 ## API
 
