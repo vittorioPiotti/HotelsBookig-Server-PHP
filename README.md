@@ -8,7 +8,7 @@ Il server sviluppato per la versione `v.7.3` di PHP  è utilizzato per il client
  - [Gestione Hotels Web](https://github.com/vittorioPiotti/Gestione-Hotels-Web)
 
 > [!NOTE]
-> Progetto scolastico
+> Progetto scolastico 🎓
 
 #### Support Me
 
